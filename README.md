@@ -1,5 +1,5 @@
 # iosClock
-Simple way to simulate a timer with Swift for iOS
+Simple way to simulate a timer with Swift for iOS.
 It's possible to start a counter of seconds and minutes. You can also stop and restart it.
 
 
