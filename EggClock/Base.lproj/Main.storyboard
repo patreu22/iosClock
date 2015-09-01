@@ -54,61 +54,115 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GrB-hO-wG1">
-                                <rect key="frame" x="77" y="218" width="447" height="163"/>
+                                <rect key="frame" x="212" y="265" width="176" height="70"/>
                                 <constraints>
+                                    <constraint firstAttribute="height" constant="114" id="7tS-dX-Ryh"/>
+                                    <constraint firstAttribute="height" constant="70" id="FUj-af-uw4"/>
                                     <constraint firstAttribute="height" constant="163" id="PSx-z7-3Vs"/>
+                                    <constraint firstAttribute="height" constant="163" id="QN8-4S-I5k"/>
                                     <constraint firstAttribute="height" constant="163" id="QQW-RV-zUv"/>
+                                    <constraint firstAttribute="height" constant="163" id="Xbp-BG-8EG"/>
+                                    <constraint firstAttribute="width" constant="447" id="ZGQ-Zw-wuH"/>
                                     <constraint firstAttribute="width" constant="447" id="g9v-do-sT9"/>
+                                    <constraint firstAttribute="height" constant="70" id="sMI-ba-xiJ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="80"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="7tS-dX-Ryh"/>
                                         <exclude reference="PSx-z7-3Vs"/>
+                                        <exclude reference="QN8-4S-I5k"/>
                                         <exclude reference="QQW-RV-zUv"/>
+                                        <exclude reference="Xbp-BG-8EG"/>
+                                        <exclude reference="ZGQ-Zw-wuH"/>
                                         <exclude reference="g9v-do-sT9"/>
+                                        <exclude reference="sMI-ba-xiJ"/>
                                     </mask>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="221" id="1OL-3b-ycF"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="top" secondItem="t8h-Gl-irE" secondAttribute="bottom" constant="154" id="3x1-SW-rcg"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4kp-vS-9Vd"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="87Z-dm-jtJ"/>
+                            <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="199" id="9gy-NY-bpl"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="98" id="Ecx-ku-i65"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ErU-d9-ygY"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="top" secondItem="t8h-Gl-irE" secondAttribute="bottom" constant="154" id="HWB-z9-isj"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="InY-lE-nvG"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="192" id="KWl-H8-cKu"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AO1-rZ-7F5" secondAttribute="bottom" id="MwD-w3-Z0s"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="NNT-KD-tf8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AO1-rZ-7F5" secondAttribute="trailing" constant="-20" id="OUV-eJ-mcv"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="P9x-gH-nKH"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q7N-wo-aYD"/>
+                            <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="175" id="RF2-XB-ekb"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RaV-xv-zel"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Rdm-X4-HJp"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="top" secondItem="t8h-Gl-irE" secondAttribute="bottom" constant="154" id="Su0-FB-MPL"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="TVJ-2m-VA1"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="57" id="W6u-SD-GTL"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="175" id="WpC-46-AeR"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xgc-dj-gBD"/>
+                            <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="221" id="YiL-Xw-qvW"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Zyu-AY-Ov6"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="175" id="bix-ve-MvE"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AO1-rZ-7F5" secondAttribute="bottom" id="ceJ-XA-iiY"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="175" id="dGb-Do-4O5"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fMC-Ra-6Ei"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GrB-hO-wG1" secondAttribute="trailing" constant="98" id="fc4-zQ-tnj"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gLw-kY-6vC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GrB-hO-wG1" secondAttribute="trailing" constant="192" id="hn4-cm-TtB"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="192" id="hwo-op-lNE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GrB-hO-wG1" secondAttribute="trailing" constant="56" id="iCs-aZ-zkE"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iTA-AL-auH"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="top" secondItem="GrB-hO-wG1" secondAttribute="bottom" constant="175" id="lnS-VN-J0r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GrB-hO-wG1" secondAttribute="trailing" constant="192" id="nPM-6x-TeY"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nlp-Ql-V4m"/>
                             <constraint firstItem="GrB-hO-wG1" firstAttribute="top" secondItem="t8h-Gl-irE" secondAttribute="bottom" constant="154" id="rkd-oY-cvK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t8h-Gl-irE" secondAttribute="trailing" constant="-20" id="sBK-aa-qmd"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sTP-Ee-T69"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="tuM-Zy-V8J"/>
                             <constraint firstItem="AO1-rZ-7F5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="vIJ-sn-sCD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GrB-hO-wG1" secondAttribute="trailing" constant="56" id="wIS-Hl-Bvq"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yPn-hk-N3V"/>
                             <constraint firstItem="t8h-Gl-irE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="z6p-AM-SwL"/>
+                            <constraint firstItem="GrB-hO-wG1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zvd-o8-tdR"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="3x1-SW-rcg"/>
+                                <exclude reference="4kp-vS-9Vd"/>
+                                <exclude reference="Ecx-ku-i65"/>
+                                <exclude reference="HWB-z9-isj"/>
                                 <exclude reference="InY-lE-nvG"/>
+                                <exclude reference="KWl-H8-cKu"/>
                                 <exclude reference="NNT-KD-tf8"/>
+                                <exclude reference="P9x-gH-nKH"/>
                                 <exclude reference="RaV-xv-zel"/>
+                                <exclude reference="Rdm-X4-HJp"/>
                                 <exclude reference="Su0-FB-MPL"/>
+                                <exclude reference="W6u-SD-GTL"/>
+                                <exclude reference="Xgc-dj-gBD"/>
+                                <exclude reference="Zyu-AY-Ov6"/>
+                                <exclude reference="fc4-zQ-tnj"/>
+                                <exclude reference="hn4-cm-TtB"/>
+                                <exclude reference="hwo-op-lNE"/>
+                                <exclude reference="iCs-aZ-zkE"/>
+                                <exclude reference="iTA-AL-auH"/>
+                                <exclude reference="nPM-6x-TeY"/>
+                                <exclude reference="nlp-Ql-V4m"/>
                                 <exclude reference="rkd-oY-cvK"/>
                                 <exclude reference="wIS-Hl-Bvq"/>
+                                <exclude reference="yPn-hk-N3V"/>
+                                <exclude reference="zvd-o8-tdR"/>
+                                <exclude reference="1OL-3b-ycF"/>
+                                <exclude reference="9gy-NY-bpl"/>
+                                <exclude reference="RF2-XB-ekb"/>
                                 <exclude reference="WpC-46-AeR"/>
                                 <exclude reference="bix-ve-MvE"/>
                                 <exclude reference="dGb-Do-4O5"/>
